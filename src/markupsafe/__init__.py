@@ -293,3 +293,5 @@ except ImportError:
     from ._native import escape as escape
     from ._native import escape_silent as escape_silent  # noqa: F401
     from ._native import soft_str as soft_str  # noqa: F401
+
+soft_unicode = soft_str
